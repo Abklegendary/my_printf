@@ -2,20 +2,16 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+i am to create a my_printf function that write output to the stdout the standard output stream.
 
 ## Description
-TODO - How have you solved the problem?
+the function writes the output under the control of the format string that that show how subsequent arguments are converted to output
+i have a lot of function for c,d,x and others.
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
-
+there is no Installation needed for this program
 ## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
-```
-
+there is no need to write Usage
 ### The Core Team
 
 
