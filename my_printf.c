@@ -11,7 +11,7 @@ int putchar_func(int m) {
 /* Function to ctrl format and returns the total size of arguments with the total size of the base string */
 int printf_func_aux(char *str, va_list list, int len);
 
-/*  */
+
 int putnum_func(unsigned long long n, unsigned int base, const char *digits) {
     int res = 1;
     if (n >= base)
@@ -69,7 +69,7 @@ int print_c_func(char *str, va_list list, int len) {
 }
 
 /* Function for int char* argument expected to be a pointer to an array of character type (p) (pointer to 
-a string). Characters from the array are written up to (but not including) a terminating NUL character */
+a string). Characters from the array are written up to (but not including) a terminating NULL character */
 int print_p_func(char *str, va_list list, int len) {
     unsigned int n = va_arg(list, unsigned int);
     len += putnum_func(n, 16, "0123456789abcdef");
