@@ -129,7 +129,7 @@ int printf_func_aux(char *str, va_list list, int len) {
     return len;
 }
 
-/* Function to return the  */
+
 int vprintf_func(char *str, va_list list) {
     return printf_func_aux(str, list, 0);
 }
